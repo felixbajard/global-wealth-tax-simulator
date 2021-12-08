@@ -116,7 +116,7 @@ ui <- tagList(
              "The next panel gives you an overview of the data used in the simulation, and lets you download it for the different available regions. The last panel hosts the simulation, which allows you to define up to 8 tax brackets, and to study the impact on each given group.",
              br(),
              br(),
-             "If you are interested in the construction of the data, you can visit ", tags$a(href="wir2022.wid.world/methodology","wir2022.wid.world/methodology"), ". If you have any questions left, feel free to contact us.",
+             "If you are interested in the construction of the data, you can visit ", tags$a(href="wir2022.wid.world/methodology","wir2022.wid.world/methodology"), ". If you are interested in the software itself, the source code is ", tags$a(href="https://github.com/felixbajard/global-wealth-tax-simulator","on GitHub"), ". If you have any questions left, feel free to contact us.",
              br(),
              br(),
              "Media: ",tags$a(href="mailto:olivia.ronsain@psemail.eu","olivia.ronsain@psemail.eu"),
