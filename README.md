@@ -1,4 +1,4 @@
-# wealth-tax-simulator
+# global-wealth-tax-simulator
 
 This simulator is a project of the [World Inequality Lab](https://inequalitylab.world/en/), aimed at allowing anyone to design their own global wealth tax, and see its downfalls on the region of their choice.
 
