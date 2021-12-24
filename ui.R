@@ -104,7 +104,7 @@ ui <- tagList(
              #   easyClose = FALSE,
              #   fade = TRUE
              # ),
-             fluidRow(column(6,offset=3,"Welcome the WID's global wealth tax simulator, a project of the ",tags$a(href="https://inequalitylab.world/en/","World Inequality Lab"),". This simulator is a companion to the World Inequality Report 2022, which details the motives and downfalls of a global wealth tax in its Chapter 7. For more details, see ", tags$a(href="wir2022.wid.world","wir2022.wid.world"), ".",
+             fluidRow(column(6,offset=3,"Welcome the WID's global wealth tax simulator, a project of the ",tags$a(href="https://inequalitylab.world/en/","World Inequality Lab",target="_blank"),". This simulator is a companion to the World Inequality Report 2022, which details the motives and downfalls of a global wealth tax in its Chapter 7. For more details, see ", tags$a(href="https://wir2022.wid.world","wir2022.wid.world",target="_blank"), ".",
              br(),
              br(),
              div(img(src = "logo-wid-big.png", height="100px", width="150px"), style="text-align: center;"),
@@ -116,7 +116,7 @@ ui <- tagList(
              "The next panel gives you an overview of the data used in the simulation, and lets you download it for the different available regions. The last panel hosts the simulation, which allows you to define up to 8 tax brackets, and to study the impact on each given group.",
              br(),
              br(),
-             "If you are interested in the construction of the data, you can visit ", tags$a(href="wir2022.wid.world/methodology","wir2022.wid.world/methodology"), ". If you are interested in the software itself, the source code is ", tags$a(href="https://github.com/felixbajard/global-wealth-tax-simulator","on GitHub"), ". If you have any questions left, feel free to contact us.",
+             "If you are interested in the construction of the data, you can visit ", tags$a(href="https://wir2022.wid.world/methodology","wir2022.wid.world/methodology",target="_blank"), ". If you are interested in the software itself, the source code is ", tags$a(href="https://github.com/felixbajard/global-wealth-tax-simulator","on GitHub",target="_blank"), ". If you have any questions left, feel free to contact us.",
              br(),
              br(),
              "Media: ",tags$a(href="mailto:olivia.ronsain@psemail.eu","olivia.ronsain@psemail.eu"),
@@ -142,7 +142,7 @@ ui <- tagList(
              fluidRow(br(),
                       br(),
                tags$ul(
-               tags$li(tags$i("iso")," is the variable denoting the region. Refer to the ", tags$a(href="https://wid.world/codes-dictionary/", "WID's codes dictionary")," for correspondance."), 
+               tags$li(tags$i("iso")," is the variable denoting the region. Refer to the ", tags$a(href="https://wid.world/codes-dictionary/", "WID's codes dictionary",target="_blank")," for correspondance."), 
                tags$li(tags$i("threshold")," and ", tags$i("threshold_cst"), " are the threshold to reach each group, respectively in current USD and 2021 constant USD at Market Exchange Rates (MER)."), 
                tags$li(tags$i("mnninc999i")," and ", tags$i("mhweal999i"), " are respectively the aggregate regional income and household wealth in the current year, expressed in 2021 constant USD at MER"), 
                tags$li(tags$i("w")," and ", tags$i("n"), " are the wealth and the number of all individuals above the corresponding threshold in the current year, wealth being expressed in 2021 constant USD at MER."),
